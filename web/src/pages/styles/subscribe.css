@@ -1,0 +1,21 @@
+.subscribeText {
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    color: #dd631d;
+    display: block;
+    font-size: larger;
+    font-style: normal;
+    height: fit-content;
+    
+}
+
+.writeYourInfoHereText {
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    color: #dd631d;
+    display: block;
+    font-size: large;
+    font-style: normal;
+    height: fit-content;
+    
+}
