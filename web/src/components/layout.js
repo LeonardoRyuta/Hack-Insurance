@@ -1,4 +1,4 @@
-import { Component, Children } from "react"
+import React, { Component, Children } from "react"
 import "./styles/layout.css"
 import Navbar from "./navbar";
 import Footer from "./footer";

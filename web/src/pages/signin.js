@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React, { Component } from "react";
 
 export default class SignIn extends Component{
   constructor() {
@@ -9,7 +9,7 @@ export default class SignIn extends Component{
   render() {
     return (
       <div>
-        Signin
+        Sign in
       </div>
     );
   };

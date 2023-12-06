@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import { SignIn, Claim, Subscribe } from "./pages";
+import React from "react";
 
 const router = createBrowserRouter([
   {
