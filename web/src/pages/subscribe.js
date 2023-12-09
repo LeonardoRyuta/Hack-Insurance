@@ -11,12 +11,23 @@ export default class Subscribe extends Component{
 
   render() {
     return(
-      <div>
-        <h1 className="subscribeText"> Subscribe </h1>
-        <h2 className="writeYourInfoHereText"> Write your info here: </h2>
-        <input placeholder="Type here" onChange={(e) => {this.setState({input : e.target.value})}}/>
-        <button onClick={()=>{console.log("Hiiiiii")}}> Subscribe </button>
-        <p>{this.state.input}</p>
+      <div className="center">
+        <div className="card">
+          <h1 className=""> Subscribe </h1>
+          <div className="insuranceContainer">
+            <div className="insuranceCard">
+              <p className="insuranceText margin-0"> Insurance 1 </p>
+              <p className="margin-0"> Covers: </p>
+              <ul className="margin-0">
+                <li>Lending Protocols</li>
+                <li>Liquidity Pools</li>
+              </ul>
+              <div style={{flex: 1}}></div>
+              <p>0.05 ETH / month</p>
+            </div>
+          </div>
+          <button className="centerButton" onClick={()=>{console.log("Hiiiiii")}}> Purchase </button>
+        </div>
       </div>
     );
   };
